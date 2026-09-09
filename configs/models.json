@@ -1,0 +1,8 @@
+{
+  "smolvlm2": {"repository": "HuggingFaceTB/SmolVLM2-2.2B-Instruct", "revision": "482adb537c021c86670beed01cd58990d01e72e4", "environment": "gradaudit-smolvlm2", "script": "src/smol_minicpm_gradaudit.py", "dataset": "minigpt_coco_gptcap_mia"},
+  "minicpm_v2": {"repository": "openbmb/MiniCPM-V-2", "revision": "b9a02dbfcc87e471b13f8d1c6963747db31427db", "environment": "gradaudit-minicpm-v2", "script": "src/smol_minicpm_gradaudit.py", "dataset": "minigpt_coco_gptcap_mia"},
+  "llava_med": {"repository": "Eren-Senoglu/llava-med-v1.5-mistral-7b-hf", "revision": "f21ad87f3576d306fe97c4e2f77be1a859a84c7f", "environment": "gradaudit-llava", "script": "src/llava_med_gradaudit.py", "dataset": "pmcoa_roco_mia"},
+  "minigpt_v2": {"repository": "Vision-CAIR/MiniGPT-v2", "repository_type": "space", "checkpoint_file": "minigptv2_checkpoint.pth", "llm_repository": "meta-llama/Llama-2-7b-chat-hf", "llm_revision": "f5db02db724555f92da89c216ac04704f23d4590", "code_repository": "https://github.com/Vision-CAIR/MiniGPT-4.git", "code_commit": "d94738a7626ec43eba6c2cddf3cd2043f1a9689a", "environment": "gradaudit-minigpt", "script": "src/minigpt_v2_gradaudit.py", "dataset": "minigpt_coco_gptcap_mia"},
+  "qwen2vl_med": {"repository": "Qwen/Qwen2-VL-2B-Instruct", "revision": "895c3a49bc3fa70a340399125c650a463535e71c", "environment": "gradaudit-qwen-med", "script": "src/qwen2vl_medtrinity_gradaudit.py", "dataset": "medtrinity_mia", "adapter": "adapters/qwen_medtrinity_1k"},
+  "internvl3_med": {"repository": "OpenGVLab/InternVL3-1B-hf", "revision": "014c0583a0d4bedf29fbe2dbff4f865eb998e171", "environment": "gradaudit-internvl3-med", "script": "src/internvl3_medtrinity_gradaudit.py", "dataset": "medtrinity_mia", "adapter": "adapters/internvl3_medtrinity_1k_1b"}
+}

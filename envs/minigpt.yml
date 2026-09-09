@@ -1,0 +1,30 @@
+name: gradaudit-minigpt
+channels: [pytorch, nvidia, conda-forge]
+dependencies:
+  - python=3.9
+  - pytorch=2.0.0
+  - torchvision=0.15.1
+  - pytorch-cuda=11.7
+  - pip
+  - pip:
+      - transformers==4.37.2
+      - accelerate==0.27.2
+      - peft==0.13.2
+      - huggingface_hub==0.25.2
+      - numpy==1.26.4
+      - scikit-learn==1.4.2
+      - pillow==10.4.0
+      - tqdm==4.67.1
+      - omegaconf==2.3.0
+      - pyyaml==6.0.2
+      - timm==1.0.12
+      - einops==0.8.0
+      - sentencepiece==0.2.0
+      - opencv-python-headless==4.10.0.84
+      - iopath==0.1.10
+      - fvcore==0.1.5.post20221221
+      - yacs==0.1.8
+      - portalocker==3.0.0
+      - webdataset==0.2.100
+      - braceexpand==0.1.7
+      - decord==0.6.0
